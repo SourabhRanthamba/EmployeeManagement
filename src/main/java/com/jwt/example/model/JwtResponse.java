@@ -8,8 +8,7 @@ import lombok.Setter;
 @Builder
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class JwtResponse {
 
 	private String jwtToken;

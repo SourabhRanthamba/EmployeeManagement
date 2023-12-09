@@ -17,7 +17,7 @@ public class AppConfig {
 	@Bean
 	public UserDetailsService userDetailService() {
 		
-		UserDetails user = User.builder().username("harsh").password(passwordEncoder().encode("abc")).roles("ADMIN").build();
+		UserDetails user = User.builder().username("harsh").password(passwordEncoder().encode("abcd")).roles("ADMIN").build();
 		return new InMemoryUserDetailsManager(user);
 	}
 	
